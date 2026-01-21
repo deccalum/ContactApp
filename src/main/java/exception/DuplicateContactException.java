@@ -1,3 +1,5 @@
 package exception;
 
-public class DuplicateContactException extends ...
+public class DuplicateContactException extends Exception {
+    
+}
