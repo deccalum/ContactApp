@@ -1,2 +1,5 @@
-public class Main {
+import controller.ContactController;
+
+void main() {
+    ContactController.run();
 }

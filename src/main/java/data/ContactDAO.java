@@ -8,6 +8,6 @@ import model.Contact;
 public interface ContactDAO {
     
     List<Contact> findAll() throws ContactStorageException;
-    public void save(Contact contact) throws ContactStorageException;
+    void save(Contact contact) throws ContactStorageException;
     Contact findByName(String name) throws ContactStorageException;
 }

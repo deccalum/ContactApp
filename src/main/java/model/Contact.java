@@ -31,7 +31,7 @@ public class Contact {
         }
 
         /** Regex Explanation
-         * 
+         *
          * ^    Start of string
          * \d  Any digit (0-9)
          * {10} Exactly 10 times
